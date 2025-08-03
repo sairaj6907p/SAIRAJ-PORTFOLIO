@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(-45deg, #1d2b64, #f8cdda, #1d976c, #93f9b9);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      color: white;
+      height: 100%;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      background-color: rgba(0,0,0,0.6);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .btn-group a {
+      text-decoration: none;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background: #000000cc;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ffd700;
+      color: #000;
+      border-color: #ffd700;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      .btn {
+        width: 100%;
+        max-width: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sairaj Pawar</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>👋 Welcome to My Portfolio</h2>
+    <p>I’m a passionate developer who creates beautiful & functional websites. Let’s build something amazing together!</p>
+
+    <div class="btn-group">
+      <a href="projects.html"><div class="btn">🚀 View Projects</div></a>
+      <a href="about.html"><div class="btn">👨‍💻 About Me</div></a>
+      <a href="C:\Users\Sairaj\Downloads\resume.pdf.pdf" download><div class="btn">📄 Download Resume</div></a>
+      <a href="contact.html"><div class="btn">📬 Contact Me</div></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy;  ***Sairaj6907***
+  </footer>
+
+</body>
+</html>

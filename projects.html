@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: #e0e0e0;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+    header h1 {
+      margin: 0;
+      color: #00bcd4;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .projects-container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 35px;
+    }
+
+    .project-card {
+      background: #1f1f1f;
+      padding: 25px 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    }
+    .project-card h3 {
+      color: #00bcd4;
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+    }
+    .project-card p {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .project-card a {
+      display: inline-block;
+      padding: 12px 22px;
+      background: linear-gradient(135deg, #00bcd4, #008ba3);
+      color: #fff;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,188,212,0.4);
+      transition: all 0.3s ease;
+    }
+    .project-card a:hover {
+      background: linear-gradient(135deg, #008ba3, #006d87);
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,188,212,0.6);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #888;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="projects-container">
+ <!-- Project 1 -->
+<div class="project-card">
+  <h3>Swastik Properties Website</h3>
+  <p>
+    Built using HTML, CSS, and JavaScript. A responsive real estate website to showcase properties.
+  </p>
+  <a href="https://sairaj6907p.github.io/Swastik-Properties/" target="_blank">
+    View Project
+  </a>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+  <h3>Data Annotation Guide</h3>
+  <p>
+    A Java-based and web-supported project explaining all about data annotation with examples.
+  </p>
+  <a href="https://sairaj6907p.github.io/All-About-Data-Annotation/" target="_blank">
+    View Project
+  </a>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+  <h3>Real Estate Booking Website</h3>
+  <p>
+    Developed using HTML, CSS, and JavaScript. A booking platform for real estate inquiries and deals.
+  </p>
+  <a href="https://sairaj6907p.github.io/Swastik-Propertiesl-Real-Estate-Booking-Website/" target="_blank">
+    View Project
+  </a>
+</div>
+
+<!-- Project 4 -->
+<div class="project-card">
+  <h3>Swastik Properties Marketing</h3>
+  <p>
+    Created with HTML, CSS, and JavaScript. A marketing website for online property promotions.
+  </p>
+  <a href="https://sairaj6907p.github.io/Swastik-Properties-Marketing/" target="_blank">
+    View Project
+  </a>
+</div>
+
+<!-- Project 5 -->
+<div class="project-card">
+  <h3>Real Estates Platform</h3>
+  <p>
+    Built with HTML, CSS, and JavaScript. A property listing website for real estate deals.
+  </p>
+  <a href="https://sairaj6907p.github.io/REALETATES/" target="_blank">
+    View Project
+  </a>
+</div>
+
+  </section>
+
+  <footer>
+    © 2025 Sairaj Pawar. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

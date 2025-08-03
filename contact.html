@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact With Me</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-yH6Ikl7+HrGkxv3q0D3gEPPaRzFhNLDYtvfO7vU/Y6hcxKHnI3y/bYzAOAT6kR7gXPiYGGZMQya+Rw1QEdWfgQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .social-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-links a {
+      font-size: 28px;
+      color: white;
+      padding: 12px 20px;
+      background: #333;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: #ffd700;
+      color: #000;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <h1>Contact With Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Let's Connect</h2>
+    <p>Reach out using the form or buttons below.</p>
+
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <h3 style="margin-top: 40px;">Connect With Me</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/share/15FCtzUqWK/" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </a>
+      <a href="https://www.instagram.com/sairaj6907?igsh=MTN5bThoN3Z6cHoxbg==" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/sairaj-pawar-143291327" target="_blank">
+        <i class="fab fa-linkedin-in"></i> LinkedIn
+      </a>
+    </div>
+
+    <p style="margin-top: 20px;">Email: <strong>sairajpawar720@gmail.com</strong></p>
+  </section>
+
+  <!-- Background Particles -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="background.js"></script>
+</body>
+</html>
